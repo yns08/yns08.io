@@ -48,4 +48,11 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-}
+}@media (max-width: 600px) {
+    header {
+        text-align: left;
+    }
+    header nav ul {
+        text-align: left;
+        padding: 0;
+    }
